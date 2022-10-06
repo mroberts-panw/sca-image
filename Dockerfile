@@ -1,4 +1,4 @@
-FROM ubuntu
+FROM node:12.18.1
 RUN mkdir /app
 RUN groupadd -r johnnycodev && useradd -r -s /bin/false -g johnnycodev johnnycodev
 WORKDIR /app
